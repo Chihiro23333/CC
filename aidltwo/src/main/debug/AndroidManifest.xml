@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tv.bangumi.aidltwo">
+    <application
+        android:label="aidltwo"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".service.AidlService">
+            <intent-filter>
+                <action android:name="action.aidlService"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tv.bangumi.ffmpeg">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:label="bgm_login"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name="MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
