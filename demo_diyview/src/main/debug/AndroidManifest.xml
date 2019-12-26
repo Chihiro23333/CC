@@ -11,6 +11,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".chapterone.ChaperOneActivity"/>
+        <activity android:name=".chaptertwo.AnimActivity"/>
     </application>
 
 </manifest>

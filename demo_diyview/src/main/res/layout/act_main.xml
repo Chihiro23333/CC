@@ -8,4 +8,8 @@
     android:text="toChapterOne"
     android:onClick="toChapterOne"/>
 
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="toChapterTwo"
+            android:onClick="toChapterTwo"/>
+
 </LinearLayout>
